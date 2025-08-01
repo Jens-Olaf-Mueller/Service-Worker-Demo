@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light"> <!-- Set theme to "dark" for dark mode -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!-- <meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#323234"> -->
+    <!-- <meta name="theme-color" media="(prefers-color-scheme: light)" content="#323234"> -->
+    <!-- <meta name="mobile-web-app-capable" content="yes"> -->
+    <!-- <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> -->
+    <!-- <meta name="description" content="Description for PWA..."/> -->
+
+    <title> Page title... </title>
+
+    <link rel="icon" href="./img/icons/home16.png" type="image/x-icon">
+    <!-- <link rel="apple-touch-icon" href="./img/icon.png"> -->
+    <!-- <link rel="manifest" href="manifest.json"> -->
+
+    <link rel="stylesheet" href="./style/style.css">
+
+    <script defer src="/js/app.js" type="module"></script>       
+</head>
+<body>
+    <header class="header"><h1>Service worker Demo</h1>
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/images.html">Images</a>
+        </nav>
+    </header>
+    
+    <main w3-include-html="templates/main.html" class="main-content">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolor perspiciatis exercitationem harum, libero itaque, modi officiis error tempora tempore id inventore accusamus repellendus? Saepe accusantium fuga tempore odio non!
+            Praesentium nulla aspernatur at vero eum libero consequuntur error, incidunt ut debitis sint! Quod porro reiciendis adipisci? Laboriosam, cumque pariatur, ad dolor cupiditate perferendis amet explicabo dolorum id ullam aspernatur!
+            Autem rerum sit nisi quisquam quia illum doloremque possimus dignissimos quo enim maxime maiores alias et facilis, cum fuga animi! Vero animi aspernatur est pariatur odio, voluptatibus eum odit sint.
+            Illum, impedit perferendis? Nostrum ut, vero amet nemo voluptas ducimus dolore blanditiis maxime consequuntur, alias consequatur, exercitationem autem. Blanditiis voluptatum, soluta et sequi aut adipisci aliquid repellat quo dolores repellendus.
+        </p>
+    </main>
+
+    <footer class="footer"></footer>
+</body>
+    <script>function log(expression) {console.log(expression);}</script>
+</html>
