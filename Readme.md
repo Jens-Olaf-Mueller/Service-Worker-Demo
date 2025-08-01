@@ -28,7 +28,7 @@
   > [!NOTE] 
   > To make it work, don't forget to register the service worker in your app.js file!
 
-  [/js/app.js](#app.js)
+  [app.js](/js/app.js)
   
 
 ## Change Log
